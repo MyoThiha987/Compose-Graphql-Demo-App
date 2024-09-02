@@ -1,0 +1,9 @@
+query Query($limit: Int, $offset: Int) {
+    ships(limit: $limit, offset: $offset) {
+        active
+        image
+        id
+        name
+        model
+    }
+}
